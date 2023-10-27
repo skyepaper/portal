@@ -1,0 +1,104 @@
+/*----------------------------------------
+ Reset
+------------------------------------------*/
+* {
+	margin: 0;
+}
+
+body {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*----------------------------------------
+ Shell
+------------------------------------------*/
+.shell {
+	margin: 0 105px;
+	max-width: 1200px;
+}
+
+.fullScreen {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	position: absolute;
+	z-index: 0;
+}
+
+.star {
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	z-index: 1;
+}
+
+/*----------------------------------------
+ Header
+------------------------------------------*/
+header {
+	background-color: black;
+	padding: 20px 0;
+	position: absolute;
+	z-index: 2;
+}
+
+header h1 {
+	border-bottom: 1px solid white;
+}
+
+/*----------------------------------------
+ Main
+------------------------------------------*/
+main {
+	display: flex;
+	height: 85vh;
+	background-color: black;
+	overflow: hidden;
+}
+
+/*----------------------------------------
+ Section Portal
+------------------------------------------*/
+.portal {
+	width:50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.portal .box {
+	height: 300px;
+	width: 550px;
+	position: absolute;
+	z-index: 2;
+	top: 30%;
+	left: 5%;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+}
+
+.newEl {
+	height: 100px;
+	width: 100px;
+	border: 1px solid white;
+	position: absolute;
+}
+
+/*----------------------------------------
+ Section Keys
+------------------------------------------*/
+.keys {
+	width:50%;
+	height: 100%;
+}
+
+.keys__inner {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 60%;
+}
